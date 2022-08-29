@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/roberto/AndroidStudioProjects/RecyclerViewExampleKotlin/app/src/main/res/drawable/gradient_element.xml" value="0.2215" />
+        <entry key="..\:/Users/roberto/AndroidStudioProjects/RecyclerViewExampleKotlin/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2215" />
+        <entry key="..\:/Users/roberto/AndroidStudioProjects/RecyclerViewExampleKotlin/app/src/main/res/layout/activity_detail.xml" value="0.17831813576494426" />
         <entry key="..\:/Users/roberto/AndroidStudioProjects/RecyclerViewExampleKotlin/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
         <entry key="..\:/Users/roberto/AndroidStudioProjects/RecyclerViewExampleKotlin/app/src/main/res/layout/view_movie_item.xml" value="0.358695652173913" />
       </map>

@@ -6,10 +6,11 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.recyclerviewexamplekotlin.databinding.ViewMovieItemBinding
+import com.example.recyclerviewexamplekotlin.model.Movie
 
 
 class MoviesAdapter(
-    private val movies: List<Movie>,
+    var movies: List<Movie>,
     private val movieClickedListener: (Movie) -> Unit
 ) :
     RecyclerView.Adapter<MoviesAdapter.ViewHolder>() {
@@ -32,7 +33,6 @@ class MoviesAdapter(
             movieClickedListener(movie)
         }
 
-
     }
 
     override fun getItemCount(): Int {
@@ -46,7 +46,7 @@ class MoviesAdapter(
         fun bind(movie: Movie) {
             binding.title.text = movie.title
             Glide.with(binding.root.context)
-                .load(movie.cover)
+                .load("https://image.tmdb.org/t/p/w185/${movie.poster_path}")
                 .into(binding.cover)
 
         }

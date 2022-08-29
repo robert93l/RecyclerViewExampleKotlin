@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">RecyclerViewExampleKotlin</string>
+    <string name="api_key">86cbedace2010b80127773f9553cc5b6</string>
 </resources>
